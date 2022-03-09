@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #1E0555;
+}
+
+body, .quote-input {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+
+}
+
+.container {
+  background-color: yellow;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 90vw;
+  width: 700px;
+
+}
+
+.quote-input {
+  background: #1e0555;
+  color: yellow;
+}
+
+.timer {
+  position: absolute;
+  top: 2rem;
+  font-size: 4rem;
+  color: yellow;
+  font-weight: bold;
+}
+
+.quote-display {
+  margin-bottom: 20px;
+  margin-left: calc(.5rem);
+  margin-top: .5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  color: #1E0555;
+}
+
+.quote-input {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  outline: none;
+  width: 100%;
+  height: 15rem;
+  border-radius: 5px;
+  margin:auto;
+  resize: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.quote-input:focus {
+  outline: #1E0555;
+}
+
+.correct {
+  color: white;
+}
+
+.incorrect {
+  color: red;
+}
